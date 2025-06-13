@@ -1,0 +1,65 @@
+/* Set the overall font and background color for the page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+  padding: 20px;
+  background-color: #e9ecef; /* Light gray background */
+}
+
+/* Style for headings */
+h2 {
+  color: #2c3e50; /* Darker shade for better readability */
+}
+
+/* Style for text and email input fields in the form */
+form input[type="text"],
+form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+  margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff; /* Bootstrap blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the table displaying subscribers */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+  margin-top: 20px;
+}
+
+/* Style for table headers and cells */
+th, td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+/* Style for hyperlinks */
+a {
+  color: #17a2b8; /* Soft teal */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Change link color on hover */
+a:hover {
+  color: #117a8b;
+  text-decoration: underline;
+}
